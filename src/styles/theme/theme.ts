@@ -2,28 +2,24 @@ import { DefaultTheme } from "styled-components/dist/types";
 
 const theme: DefaultTheme = {
   colors: {
-    background: "#2a2a2a",
-    header: "#000",
-    corporative: "#ffc715",
-    text: "#fff",
-    hover: "#585858",
-    available: "#f2f2f2",
-    reserved: "#cb2b2b",
-    selected: "#098f3e",
+    clean: "#fff",
+    secondaryClean: "#f2f1f6",
+    terciaryClean: "#423d3d61",
+    softDark: "#423d3d",
+    dark: "#1a1a1a",
+    error: "#ff2121cf",
+    confirm: "#86b140",
   },
+
   fonts: {
-    primary: "Inter",
+    primary: "Lato, sans-serif",
+    secondary: "Metrophobic, sans-serif",
   },
-  fontSize: {
-    extraSmall: "1rem",
-    small: "1.25rem",
-    medium: "1.375rem",
-    large: "1.5rem",
-    extraLarge: "2.188rem",
-  },
-  fontWeight: {
-    regular: "400",
-    semiBold: "600",
+
+  fontSizes: {
+    high: "20px",
+    medium: "18px",
+    small: "16px",
   },
 };
 

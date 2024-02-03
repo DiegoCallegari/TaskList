@@ -1,35 +1,26 @@
-import { DefaultTheme } from "styled-components";
-
 declare module "styled-components" {
   interface DefaultTheme {
     colors: {
-      background: string;
-      header: string;
-      text: string;
-      hover: string;
-      corporative: string;
-      available: string;
-      reserved: string;
-      selected: string;
+      clean: string;
+      secondaryClean: string;
+      terciaryClean: string;
+      softDark: string;
+      dark: string;
+      error: string;
+      confirm: string;
     };
 
     fonts: {
       primary: string;
+      secondary: string;
     };
 
-    fontSize: {
-      extraSmall: string;
-      small: string;
+    fontSizes: {
+      high: string;
       medium: string;
-      large: string;
-      extraLarge: string;
-    };
-
-    fontWeight: {
-      regular: string;
-      semiBold: string;
+      small: string;
     };
   }
 }
 
-export default DefaultTheme;
+export default DefaultThemes;
