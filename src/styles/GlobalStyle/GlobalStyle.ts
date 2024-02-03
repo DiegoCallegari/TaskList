@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background-color: green;
+    background-color: ${(props) => props.theme.colors.secondaryClean};
   }
 
   body,

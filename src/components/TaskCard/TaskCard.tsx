@@ -3,7 +3,9 @@ import TaskCardStyled from "./TaskCardStyle";
 const TaskCard = (): React.ReactElement => {
   return (
     <TaskCardStyled>
-      <h1>Hola card!</h1>
+      <h2>Task title</h2>
+      <p>Description of the task</p>
+      <span className="status">State: open or closed</span>
     </TaskCardStyled>
   );
 };
